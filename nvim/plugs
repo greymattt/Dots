@@ -1,0 +1,34 @@
+
+Plug 'tpope/vim-fugitive' " Github integration :Git commit
+Plug 'tpope/vim-rhubarb' " Github browse
+Plug 'tpope/vim-dadbod' " Database intergration
+Plug 'kristijanhusak/vim-dadbod-ui' " Database
+Plug 'hoob3rt/lualine.nvim' " bottom bar
+Plug 'kristijanhusak/defx-git' " Git status indicator
+Plug 'kristijanhusak/defx-icons' " Icond for defx
+Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'neovim/nvim-lspconfig' " Config of neovim default LSP
+Plug 'glepnir/lspsaga.nvim'
+Plug 'folke/lsp-colors.nvim'
+Plug 'nvim-lua/completion-nvim'
+Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'preservim/nerdtree'
+Plug 'windwp/nvim-autopairs'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'https://github.com/tpope/vim-commentary' " gcc commenting
+Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
+Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
+Plug 'andweeb/presence.nvim'
+Plug 'groenewege/vim-less', { 'for': 'less' }
+Plug 'kchmck/vim-coffee-script', { 'for': 'coffee' }
+Plug 'rafi/awesome-vim-colorschemes' " colorschemes
+Plug 'vifm/vifm.vim' " file manager
+Plug 'stevearc/gkeep.nvim', { 'do': ':UpdateRemotePlugins' }
+Plug 'pianocomposer321/yabs.nvim'
+Plug 'michaelb/sniprun', {'do': 'bash install.sh'}
+Plug 'ellisonleao/glow.nvim'
